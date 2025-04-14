@@ -33,6 +33,5 @@ Este é um jogo simples de **Jogo da Velha** desenvolvido em Java utilizando **S
 
 
 **IMAGEM DE EXEMPLO**
-
-![image](https://github.com/user-attachments/assets/7f761f80-b4d3-4367-8ccc-d22ac62d836a) //   ![image](https://github.com/user-attachments/assets/086dfd51-60e3-4435-816a-dcdc5939463d)
+ ![img.png](img.png)
 
