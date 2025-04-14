@@ -35,13 +35,13 @@ public class JogoDaVelhaSwing extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        JButton clicado = (JButton) e.getSource();
+        JButton click = (JButton) e.getSource();
 
-        if (!clicado.getText().equals("")) {
+        if (!click.getText().equals("")) {
             return; // Casa já preenchida
         }
 
-        clicado.setText(jogadorX ? "X" : "O");
+        click.setText(jogadorX ? "X" : "O");
         jogadas++;
 
         if (verificarVencedor()) {
