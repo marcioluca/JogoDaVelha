@@ -48,7 +48,7 @@ public class JogoDaVelhaSwing extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(this, "Jogador " + (jogadorX ? "X" : "O") + " venceu!");
             reiniciarJogo();
         } else if (jogadas == 9) {
-            JOptionPane.showMessageDialog(this, "Empate!");
+            JOptionPane.showMessageDialog(this, "Deu Velha!");
             reiniciarJogo();
         }
 
